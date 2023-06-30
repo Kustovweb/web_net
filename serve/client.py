@@ -9,7 +9,7 @@ nickname = input("Введите ваш ник: \n")
 
 # Соединение с сервером
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('91.200.148.69', 55555))
+client.connect(('', 55555))
 
 
 # Прослушивание сервера и отправка ника
